@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 9</title>
+</head>
+<body>
+    <script>
+        let number = 456; // Число
+
+        let hundreds = Math.floor(number / 100); // Находим кол-во сотен с помощью mathfloor, чтобы получить целое число
+        let tens = Math.floor((number % 100) / 10); // Находим десятки
+        let units = number % 10; // Находим единицы
+
+        console.log("Сотен: " + hundreds); //Выводим
+        console.log("Десятков: " + tens);
+        console.log("Единиц: " + units);
+
+    </script>
+</body>
+</html>
